@@ -14,7 +14,7 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="bg-white text-gray-700 h-[100px] flex items-center justify-between px-4 md:px-8 lg:px-16 shadow-md">
+    <nav className="bg-white text-gray-700 h-[100px] flex items-center justify-between px-4 md:px-8 lg:px-16 ">
       <div className="flex items-center gap-8">
         <Link href="/">
           <Image
