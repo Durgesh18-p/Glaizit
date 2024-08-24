@@ -21,7 +21,7 @@ const data = [
 
 const AboutGlaizitHome = () => {
   return (
-    <div className="lg:m-28  pt-0 pl-3 pr-3">
+    <div className="lg:m-28 lg:pt-0 pt-5 pl-3 pr-3">
       <p className="text-[#A76D09] font-roboto font-semibold lg:text-[25px] text-[17px] lg:leading-[29.3px] leading-[22.3px]  text-center mb-12">
         Glaizit is a vibrant social platform dedicated to ceramic artists,
         fostering a community where creativity thrives. Our mission is to
