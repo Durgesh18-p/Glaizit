@@ -27,7 +27,7 @@ const ThingsToDoOnGlaizit = () => {
   }, [labelImages.length]);
 
   return (
-    <div className="bg-white py-8 px-4 sm:px-6 lg:px-8 flex justify-center items-center">
+    <div className="bg-white py-8 px-4 sm:px-6 lg:px-8 flex justify-center items-center mb-24">
       <div className="relative">
         <div className="flex flex-col items-center lg:flex-row lg:justify-between lg:items-start">
           <div className="relative">
