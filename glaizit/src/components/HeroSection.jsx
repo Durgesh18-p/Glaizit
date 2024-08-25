@@ -30,19 +30,19 @@ const HeroSection = () => {
           Glaizit is your go-to resource for mastering pottery and glazing.
         </p>
         <div className="mt-5 flex flex-col sm:flex-row items-center gap-4">
-          <button className="h-[52px] w-[110px] text-[17px] rounded-[24px] bg-[#A76D09] text-white sm:w-[180px] sm:text-[17px]">
+          <button className="h-[52px] w-[110px] text-[17px] rounded-[24px] bg-[#A76D09] text-white sm:w-[180px] sm:text-[17px] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
             Start Exploring
           </button>
           <div className="flex gap-2">
             <img
               src="/appstore.png"
               alt="App Store"
-              className="h-[52px] w-[110px] sm:w-[160px] sm:h-[52px]"
+              className="h-[52px] w-[110px] sm:w-[160px] sm:h-[52px] transition-transform duration-300 ease-in-out hover:scale-105"
             />
             <img
               src="/googleplay.png"
               alt="Google Play"
-              className="h-[52px] w-[110px] sm:w-[160px] sm:h-[52px]"
+              className="h-[52px] w-[110px] sm:w-[160px] sm:h-[52px] transition-transform duration-300 ease-in-out hover:scale-105"
             />
           </div>
         </div>
@@ -60,24 +60,24 @@ const HeroSection = () => {
             <img
               src="/firstmobileframe.png"
               alt="mobile frame"
-              className="absolute h-full -top-10 right-1"
+              className="absolute h-full -top-10 right-1 transition-transform duration-300 ease-in-out hover:scale-105"
             />
             <img
               src="/firmenuimage.png"
               alt=""
-              className="absolute h-[300px] md:h-[450px] right-[185px] top-5"
+              className="absolute h-[300px] md:h-[450px] right-[185px] top-5 transition-transform duration-300 ease-in-out hover:scale-105"
             />
           </div>
           <div className="relative z-30 h-[400px] md:h-[570px]">
             <img
               src="/secondmobileframe.png"
               alt="mobile frame"
-              className="ml-72 -mt-[400px] md:-mt-[570px] h-[300px] md:h-[500px]"
+              className="ml-72 -mt-[400px] md:-mt-[570px] h-[300px] md:h-[500px] transition-transform duration-300 ease-in-out hover:scale-105"
             />
             <img
               src="/secondmenuimage.png"
               alt=""
-              className="ml-[415px] -mt-[300px] md:-mt-[450px] h-[16rem] md:h-[25rem]"
+              className="ml-[415px] -mt-[300px] md:-mt-[450px] h-[16rem] md:h-[25rem] transition-transform duration-300 ease-in-out hover:scale-105"
             />
           </div>
         </div>

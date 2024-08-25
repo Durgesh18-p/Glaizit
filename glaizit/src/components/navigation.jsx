@@ -14,7 +14,7 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="bg-white text-gray-700 h-[100px] flex items-center justify-between px-4 md:px-8 lg:px-16 ">
+    <nav className="bg-white text-gray-700 h-[100px] flex items-center justify-between px-4 md:px-8 lg:px-16">
       <div className="flex items-center gap-8">
         <Link href="/">
           <Image
@@ -28,32 +28,50 @@ const Navigation = () => {
         </Link>
         {/* Desktop Navigation Links */}
         <div className="hidden md:flex items-center gap-6">
-          <Link href="/" className="hover:text-[#A76D09]">
+          <Link
+            href="/"
+            className="hover:text-[#A76D09] hover:underline transition duration-300 ease-in-out"
+          >
             Home
           </Link>
-          <Link href="/glaizes" className="hover:text-[#A76D09]">
+          <Link
+            href="/glaizes"
+            className="hover:text-[#A76D09] hover:underline transition duration-300 ease-in-out"
+          >
             Glaizes
           </Link>
-          <Link href="/videos" className="hover:text-[#A76D09]">
+          <Link
+            href="/videos"
+            className="hover:text-[#A76D09] hover:underline transition duration-300 ease-in-out"
+          >
             Videos
           </Link>
-          <Link href="/blogs" className="hover:text-[#A76D09]">
+          <Link
+            href="/blogs"
+            className="hover:text-[#A76D09] hover:underline transition duration-300 ease-in-out"
+          >
             Blogs
           </Link>
-          <Link href="/forums" className="hover:text-[#A76D09]">
+          <Link
+            href="/forums"
+            className="hover:text-[#A76D09] hover:underline transition duration-300 ease-in-out"
+          >
             Forums
           </Link>
-          <Link href="/about" className="hover:text-[#A76D09]">
+          <Link
+            href="/about"
+            className="hover:text-[#A76D09] hover:underline transition duration-300 ease-in-out"
+          >
             About
           </Link>
         </div>
       </div>
       {/* Desktop Buttons */}
       <div className="hidden md:flex items-center gap-4">
-        <button className="bg-[#A76D09] text-white rounded-[24px] px-6 py-2 w-[100.59px] h-[48px] hover:bg-opacity-90 transition duration-300 ease-out">
+        <button className="bg-[#A76D09] text-white rounded-[24px] px-6 py-2 w-[100.59px] h-[48px] hover:bg-[#8c5b02] transition duration-300 ease-out transform hover:scale-105">
           Signup
         </button>
-        <button className="border-2 border-[#A76D09] text-[#A76D09] rounded-[24px] w-[100.59px] h-[48px] hover:bg-[#A76D09] hover:text-white transition duration-300 ease-out">
+        <button className="border-2 border-[#A76D09] text-[#A76D09] rounded-[24px] w-[100.59px] h-[48px] hover:bg-[#A76D09] hover:text-white transition duration-300 ease-out transform hover:scale-105">
           Register
         </button>
       </div>
@@ -77,48 +95,52 @@ const Navigation = () => {
         className="fixed inset-y-0 left-0 w-64 bg-white shadow-md z-50 p-6 md:hidden"
       >
         <div className="flex flex-col gap-6">
-          <Link href="/" onClick={toggleMenu} className="hover:text-[#A76D09]">
+          <Link
+            href="/"
+            onClick={toggleMenu}
+            className="hover:text-[#A76D09] hover:underline transition duration-300 ease-in-out"
+          >
             Home
           </Link>
           <Link
             href="/glaizes"
             onClick={toggleMenu}
-            className="hover:text-[#A76D09]"
+            className="hover:text-[#A76D09] hover:underline transition duration-300 ease-in-out"
           >
             Glaizes
           </Link>
           <Link
             href="/videos"
             onClick={toggleMenu}
-            className="hover:text-[#A76D09]"
+            className="hover:text-[#A76D09] hover:underline transition duration-300 ease-in-out"
           >
             Videos
           </Link>
           <Link
             href="/blogs"
             onClick={toggleMenu}
-            className="hover:text-[#A76D09]"
+            className="hover:text-[#A76D09] hover:underline transition duration-300 ease-in-out"
           >
             Blogs
           </Link>
           <Link
             href="/forums"
             onClick={toggleMenu}
-            className="hover:text-[#A76D09]"
+            className="hover:text-[#A76D09] hover:underline transition duration-300 ease-in-out"
           >
             Forums
           </Link>
           <Link
             href="/about"
             onClick={toggleMenu}
-            className="hover:text-[#A76D09]"
+            className="hover:text-[#A76D09] hover:underline transition duration-300 ease-in-out"
           >
             About
           </Link>
-          <button className="bg-[#A76D09] text-white rounded-[24px] px-6 py-2 w-full hover:bg-opacity-90 transition duration-300 ease-out">
+          <button className="bg-[#A76D09] text-white rounded-[24px] px-6 py-2 w-full hover:bg-[#8c5b02] transition duration-300 ease-out transform hover:scale-105">
             Signup
           </button>
-          <button className="border-2 border-[#A76D09] text-[#A76D09] rounded-[24px] px-6 py-2 w-full hover:bg-[#A76D09] hover:text-white transition duration-300 ease-out">
+          <button className="border-2 border-[#A76D09] text-[#A76D09] rounded-[24px] px-6 py-2 w-full hover:bg-[#A76D09] hover:text-white transition duration-300 ease-out transform hover:scale-105">
             Register
           </button>
         </div>

@@ -21,8 +21,8 @@ const data = [
 
 const AboutGlaizitHome = () => {
   return (
-    <div className="lg:m-28  lg:pt-0 pt-8 pl-3 pr-3">
-      <p className="text-[#A76D09] font-roboto font-semibold lg:text-[25px] text-[17px] lg:leading-[29.3px] leading-[22.3px]  text-center mb-12">
+    <div className="lg:m-28 lg:pt-0 pt-8 pl-3 pr-3">
+      <p className="text-[#A76D09] font-roboto font-semibold lg:text-[25px] text-[17px] lg:leading-[29.3px] leading-[22.3px] text-center mb-12">
         Glaizit is a vibrant social platform dedicated to ceramic artists,
         fostering a community where creativity thrives. Our mission is to
         empower artists by providing tools and a supportive environment to
@@ -32,7 +32,7 @@ const AboutGlaizitHome = () => {
         {data.map((item) => (
           <div
             key={item.title}
-            className="bg-[#FBF1E7] p-4 rounded-[50px] h-[223px] w-[295px] flex justify-center items-center flex-col"
+            className="bg-[#FBF1E7] p-4 rounded-[50px] h-[223px] w-[295px] flex justify-center items-center flex-col transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl"
           >
             <h3 className="text-[#000000] font-roboto font-semibold text-[25px] leading-[24px] mb-4">
               {item.title}
