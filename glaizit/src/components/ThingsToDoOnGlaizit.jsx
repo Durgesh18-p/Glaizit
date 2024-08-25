@@ -46,7 +46,6 @@ const ThingsToDoOnGlaizit = () => {
             />
             <img
               src="/thingstodoimages/icon7.png"
-              
               alt=""
               className="absolute w-[50px] h-[50px] right-[120px] top-[453px]"
             />
@@ -57,79 +56,79 @@ const ThingsToDoOnGlaizit = () => {
             />
           </div>
 
-          {/* <div className="absolute lg:relative w-full lg:w-2/3 flex flex-wrap justify-between items-center lg:pl-10 lg:mt-0 mt-10 space-y-10 lg:space-y-0">
-            <div className="flex flex-col items-center space-y-3 lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:top-0">
+          <div>
+            <div className=" ">
               <img
                 src="/thingstodoimages/img1.png"
                 alt="Inspire Icon"
-                className="w-12 h-12"
+                className="w-[310px] h-[104px] rounded-[25px]  absolute right-[570px] top-14"
               />
             </div>
 
-            <div className="flex flex-col items-center space-y-3 lg:absolute lg:right-0 lg:top-1/4">
+            <div>
               <img
                 src="/thingstodoimages/img2.png"
                 alt="Discover Icon"
-                className="w-12 h-12"
+                className="w-[310px] h-[104px] rounded-[25px]  absolute right-[660px] top-[300px]"
               />
             </div>
 
-            <div className="flex flex-col items-center space-y-3 lg:absolute lg:right-0 lg:top-1/2">
+            <div>
               <img
                 src="/thingstodoimages/img3.png"
                 alt="Learn Icon"
-                className="w-12 h-12"
+                className="w-[310px] h-[104px] rounded-[25px]  absolute right-[632px] top-[490px]"
               />
             </div>
 
-            <div className="flex flex-col items-center space-y-3 lg:absolute lg:right-0 lg:top-3/4">
+            <div>
               <img
                 src="/thingstodoimages/img4.png"
                 alt="Discuss Icon"
-                className="w-12 h-12"
+                className="w-[310px] h-[104px] rounded-[25px]  absolute right-[570px] top-[665px]"
               />
             </div>
 
-            <div className="flex flex-col items-center space-y-3 lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:bottom-0">
+            <div>
               <img
                 src="/thingstodoimages/img5.png"
                 alt="Create Icon"
-                className="w-12 h-12"
+                className="w-[310px] h-[104px] rounded-[25px]  absolute right-[220px] top-[730px]"
               />
             </div>
 
-            <div className="flex flex-col items-center space-y-3 lg:absolute lg:left-0 lg:top-3/4">
+            <div>
               <img
                 src="/thingstodoimages/img6.png"
                 alt="Record Icon"
-                className="w-12 h-12"
+                className="w-[310px] h-[104px] rounded-[25px]  absolute -right-[100px] top-[660px]"
               />
             </div>
 
-            <div className="flex flex-col items-center space-y-3 lg:absolute lg:left-0 lg:top-1/2">
+            <div>
               <img
                 src="/thingstodoimages/img7.png"
                 alt="Connect Icon"
-                className="w-12 h-12"
+                className="w-[310px] h-[104px] rounded-[25px]  absolute -right-[185px] top-[495px]"
               />
             </div>
 
-            <div className="flex flex-col items-center space-y-3 lg:absolute lg:left-0 lg:top-1/4">
+            <div>
               <img
                 src="/thingstodoimages/img8.png"
                 alt="Share Icon"
-                className="w-12 h-12"
+                className="w-[310px] h-[104px] rounded-[25px]  absolute -right-[210px] top-[290px]"
               />
             </div>
 
-            <div className="flex flex-col items-center space-y-3 lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:top-0">
+            <div>
               <img
                 src="/thingstodoimages/img9.png"
                 alt="Achieve Icon"
-                className="w-12 h-12"
+                className="w-[310px] h-[104px] rounded-[25px]  absolute -right-[180px] top-[60px]"
               />
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
